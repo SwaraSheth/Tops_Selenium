@@ -21,5 +21,7 @@ public static void main(String[] args) throws InterruptedException {
 	Thread.sleep(2000);
 	driver.findElement(By.id("login")).click();
 	Thread.sleep(2000);
+	
+	driver.close();
 }
 }

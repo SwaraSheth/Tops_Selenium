@@ -10,7 +10,7 @@ public static void main(String[] args) throws InterruptedException {
 //	System.setProperty("webdriver.chrome.driver","F:\\Selenium\\chromedriver.exe");
 //	WebDriver driver=new ChromeDriver();
 
-	driver.get("https://www.facebook.com/");
+	driver.get("");
 	driver.manage().window().maximize();
 	Thread.sleep(2000);
 }
