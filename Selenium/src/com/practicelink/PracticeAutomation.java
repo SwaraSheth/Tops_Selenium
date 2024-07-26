@@ -1,4 +1,4 @@
-package practicelink;
+package com.practicelink;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
