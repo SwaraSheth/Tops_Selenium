@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-21T09:53:41 IST" name="Default suite" finished-at="2024-08-21T09:54:18 IST" duration-ms="37663">
+    <groups>
+    </groups>
+    <test started-at="2024-08-21T09:53:41 IST" name="Default test" finished-at="2024-08-21T09:54:18 IST" duration-ms="37663">
+      <class name="com.testng.TestngDepends">
+        <test-method signature="before()[pri:0, instance:com.testng.TestngDepends@1139b2f3]" started-at="2024-08-21T09:53:41 IST" name="before" finished-at="2024-08-21T09:54:08 IST" duration-ms="26888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="enterLogin()[pri:0, instance:com.testng.TestngDepends@1139b2f3]" started-at="2024-08-21T09:54:08 IST" name="enterLogin" finished-at="2024-08-21T09:54:10 IST" depends-on-methods="com.testng.TestngDepends.before" duration-ms="2543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLogin -->
+        <test-method signature="enterPassword()[pri:0, instance:com.testng.TestngDepends@1139b2f3]" started-at="2024-08-21T09:54:10 IST" name="enterPassword" finished-at="2024-08-21T09:54:13 IST" depends-on-methods="com.testng.TestngDepends.enterLogin" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method signature="clickLogin()[pri:0, instance:com.testng.TestngDepends@1139b2f3]" started-at="2024-08-21T09:54:13 IST" name="clickLogin" finished-at="2024-08-21T09:54:15 IST" depends-on-methods="com.testng.TestngDepends.enterPassword" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method signature="after()[pri:0, instance:com.testng.TestngDepends@1139b2f3]" started-at="2024-08-21T09:54:15 IST" name="after" finished-at="2024-08-21T09:54:18 IST" depends-on-methods="com.testng.TestngDepends.clickLogin" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.testng.TestngDepends -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

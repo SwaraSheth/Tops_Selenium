@@ -25,7 +25,7 @@ public class JunitAnnotation {
 		System.out.println("this is test1");
 	}
 	
-	@Ignore
+//	@Ignore
 	@Test
 	public void test2()  {
 		System.out.println("this is test2");
