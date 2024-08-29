@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <parameter name="username" value="standard_user"/>
+  <parameter name="password" value="secret_sauce"/>
+    <classes>
+      <class name="com.testng.TestngParameters2"/>
+      <class name="com.testng.SwagLabLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
